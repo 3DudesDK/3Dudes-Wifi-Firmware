@@ -31,7 +31,7 @@
 #define ESP_MANUFACTURER_NAME "Espressif Systems"
 #define ESP_MANUFACTURER_URL "http://espressif.com"
 //default name if no mac address is valid
-#define ESP_DEFAULT_NAME "MYESP"
+#define ESP_DEFAULT_NAME "3Dudes"
 //if commented name will follow mac address 3 last digits
 //like ESP_XXXXXX (eg:ESP_028E41) to avoid overlap if several ESP3D
 #define ESP_HOST_NAME ESP_DEFAULT_NAME
@@ -55,7 +55,7 @@
 #define TCP_IP_DATA_FEATURE
 
 //NOTIFICATION_FEATURE : allow to push notifications
-#define NOTIFICATION_FEATURE
+//#define NOTIFICATION_FEATURE
 
 //MKS TFT WIFI support see Wiki for wiring
 //#define MKS_TFT_FEATURE
@@ -367,10 +367,10 @@ typedef enum {
 
 //default values
 #define DEFAULT_WIFI_MODE           AP_MODE
-const char DEFAULT_AP_SSID []  PROGMEM =        "ESP3D";
-const char DEFAULT_AP_PASSWORD [] PROGMEM = "12345678";
-const char DEFAULT_STA_SSID []  PROGMEM =       "ESP3D";
-const char DEFAULT_STA_PASSWORD [] PROGMEM =    "12345678";
+const char DEFAULT_AP_SSID []  PROGMEM =        "3Dudes";
+const char DEFAULT_AP_PASSWORD [] PROGMEM = "1234";
+const char DEFAULT_STA_SSID []  PROGMEM =       "3Dudes";
+const char DEFAULT_STA_PASSWORD [] PROGMEM =    "1234";
 const byte DEFAULT_STA_IP_MODE  =               DHCP_MODE;
 const byte DEFAULT_AP_IP_MODE =                 STATIC_IP_MODE;
 const byte DEFAULT_IP_VALUE[]   =           {192, 168, 0, 1};
